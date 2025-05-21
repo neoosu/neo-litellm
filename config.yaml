@@ -33,3 +33,5 @@ model_list:
 
 litellm_settings:
   callbacks: ["entitlement_callback.entitlement_checker"]
+general_settings: 
+  store_prompts_in_spend_logs: True
